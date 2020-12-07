@@ -15,7 +15,7 @@
    --main-color-lighten: #fcead7;
    --text-color: #6b0e02;
 
-   --body-font: 'Courier New', Courier, monospace;
+   --body-font: 'Crimson Text', serif;;
    --h1-fz: 1.5rem;
    --h2-fz: 1.25rem;
    --h3-fz: 1rem;
@@ -674,4 +674,8 @@ font-size: var(--h2-fz);
       grid-template-columns: repeat(1, 1fr) ;
    }
 
+   .works__img {
+      min-height: 250px;
+      width: 400px;
+   }
 }
